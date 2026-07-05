@@ -8,7 +8,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 10px 1%;
+}
+.header h1
+{
+    margin-right: auto;
+    padding: 25px;
+}
+
+.pfp{
+    display: flex;
+    
+}
+
+.pfp img
+{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
 }
 
 .nav-list
