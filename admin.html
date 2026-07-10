@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    
+
+<form action="/blog.php" method="post" enctype="multipart/form-data">
+    <div>
+    <label for="title">Titulo del articulo</label>
+    <input type="text" name="title" id="title" required placeholder="Escribe un titulo">
+    </div>
+
+    <div></div>
+    <label for="image">Imagen</label>
+    <input type="file" name="image" id="image" accept="image/*">
+    </div>
+    
+    <div>
+    <label for="article">Escribe aqui</label>
+    <textarea name="article" id="article" rows="10" required placeholder="Escribe aqui tu articulo"></textarea>
+    </div>
+    
+    <button type="submit">Publicar</button>
+</form>
+</body>
